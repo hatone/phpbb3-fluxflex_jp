@@ -1,0 +1,15 @@
+#######################################
+#
+# phpBB3 configuration for fluxflex
+#
+#######################################
+
+## Replace
+[replace]
+install/install_install.php   DUMMY_DB_HOST         DB_HOST
+install/install_install.php   DUMMY_PROJECT_NAME    PROJECT_NAME
+install/install_install.php   DUMMY_DB_PASSWORD     DB_PASSWORD
+
+## Setup
+[setup]
+ln -s . public_html
